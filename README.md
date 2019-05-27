@@ -1,6 +1,9 @@
 ## Node 全栈开发课程
+课程将包括 Node 基础、进阶以及 Web 实战的内容。
 
-### 规划目录
+Web 实战中，以后台管理系统为例。采用的技术栈为：Node 作为后台，Web 框架采用 Express，前端模版库采用 AdminLTE ，数据库 ORM 框架采用 Sequelize。
+
+### 拟规划目录
 第一部分：基础知识
 - 01 走进 Node 的世界，认识 Node
 - 02 开始 Node 开发之旅，Hello Node
