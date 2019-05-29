@@ -1,5 +1,7 @@
-## Node 全栈开发课程
-课程将包括 Node 基础、进阶以及 Web 实战的内容。在 Web 实战中，以**后台管理系统**为例。采用的技术栈为：[Express](http://www.expressjs.com.cn/) + [AdminLTE](https://adminlte.io/) + [Mysql](https://www.mysql.com/) + [Sequelize](http://docs.sequelizejs.com/)。
+## Node 全栈开发入门实战课程
+课程将分为三个部分，分别为 Node 基础、进阶应用以及 Web 实战。Node 基础主要介绍官方 API 的使用；进阶应用将通过示例进一步了解 Node API的使用；Web 实战重点讲实际项目开发，以**后台管理系统**为例。采用的技术栈为：[Express](http://www.expressjs.com.cn/) + [AdminLTE](https://adminlte.io/) + [Mysql](https://www.mysql.com/) + [Sequelize](http://docs.sequelizejs.com/)。
+
+后续可能的话，会使用 Vue 框架重构前台页面。
 
 ### 拟规划目录
 第一部分：基础知识
