@@ -43,6 +43,6 @@
 ![](image/weixin-qrcode.png)
 
 ### 联系我
-个人微信号
+个人微信号，请务必备注信息「Node」。
 
 ![](image/qrcode-self.jpeg)
