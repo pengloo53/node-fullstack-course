@@ -41,3 +41,8 @@
 个人微信公众号：个人学习，专注分享：个人成长、读书感悟以及产品技术主题。
 
 ![](image/weixin-qrcode.png)
+
+### 联系我
+个人微信号
+
+![](image/qrcode-self.jpeg)
