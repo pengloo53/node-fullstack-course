@@ -62,5 +62,9 @@ typings/
 
 .markeditor
 .Archive
+
 drafts
 configs
+
+#gitbook
+.gitbook

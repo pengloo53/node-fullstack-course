@@ -2,15 +2,13 @@
 title: 开始 Node 的开发之旅
 ---
 
-# 02\_start\_node
-
 从这一节课程开始，就正式进入开发实战中。工欲善其事，必先利其器，要开始学习 Node 开发了，Node 的环境一定要准备好。这一节课程的主要内容是 Node 环境的安装，以及编写属于 Node 的「Hello, World」。
 
 ## Node 环境
 
 Node 是全平台支持的，官方提供了下载地址，分为长期版本以及当前版本，初学者建议安装长期版本，截止到写该篇文章为止，Node 的长期版本号为：10.15.1，我们打开官方下载页面：[Download \| Node.js](https://nodejs.org/en/download/)
 
-![](https://github.com/pengloo53/node-fullstack-course/tree/918dcd8d64236c760e347160031f94935df1ed06/开发准备/image/2019-03-04-22-50-13.jpg)
+![](./_image/2019-03-04-22-50-13.jpg)
 
 Windows 平台和 Mac 平台直接下载对应的软件包，然后双击安装即可。
 
@@ -68,11 +66,11 @@ Node 环境安装完成之后，在命令行处输入 `node -v`，显示版本�
 
 Node 安装完成之后，我们在命令行处输入 `node`，会出现命令行交互界面，我们输入 `console.log('Hello, World!')` 回车，将会在控制台，打印出 Hello, World! 的字样。如下图所示：
 
-![](../.gitbook/assets/2019-03-14-22-55-53.png)
+![](./_image/2019-03-14-22-55-53.png)
 
 如果我说，这就是 Node 的「Hello, World」程序，你一定会质问，这算什么呀？在浏览器命令行里，输入同样的代码，也会出现相同的结果，这明明是 JavaScript 语言的「Hello, World」，跟 Node 有半毛钱关系呀。
 
-![](../.gitbook/assets/2019-03-15-21-19-40.png)
+![](./_image/2019-03-15-21-19-40.png)
 
 没错，如果拿这个冒充 Node 的「Hello, World」，一定会让人瞧不起的。现在就来看看，属于 Node 的 「Hello, World」，上面提到过，Node 的诞生，最初是为了成为一个高性能的 Web 服务器，所以，它的优势当然在 Web 上。且看下面一段代码：
 
@@ -87,13 +85,13 @@ console.log('Server is started @3000');
 
 先不着急明白代码的含义，先在编辑器上敲出如上代码，然后保存到本地，命名为 helloworld.js ，然后到终端中，使用 `supervisor helloworld.js` 命令运行代码，终端显示如下：
 
-![](../.gitbook/assets/2019-03-15-21-25-58.png)
+![](./_image/2019-03-15-21-25-58.png)
 
 如果上述环境安装都没有问题的话，你的服务已经在本地 3000 端口跑起来了，打开浏览器，输入网址：[http://localhost:3000](http://localhost:3000) 你将会看到，属于 Node 的 「Hello, World」程序。
 
 我们修改一下代码，将打印的文本替换成 「Hello, Node!」，在终端处，你会看到服务自动重启，如下图：
 
-![](../.gitbook/assets/2019-03-15-21-34-50.png)
+![](./_image/2019-03-15-21-34-50.png)
 
 这就是 supervisor 的作用。
 
